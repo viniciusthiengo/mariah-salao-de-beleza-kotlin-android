@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9670CE</color>
+    <color name="colorPrimaryDark">#7954AF</color>
+    <color name="colorAccent">#7AD15A</color>
+
+    <color name="colorNavigationView">#F5F5F6</color>
+    <color name="colorItemNormal">#777777</color>
+
+    <color name="colorDarkTextLabel">#222222</color>
+    <color name="colorPurpleTextLabel">#714BA4</color>
+    <color name="colorGreyIcon">#969FAA</color>
+</resources>

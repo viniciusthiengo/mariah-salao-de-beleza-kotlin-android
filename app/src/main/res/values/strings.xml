@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mariah Salão de Beleza</string>
+
+    <string name="navigation_drawer_open">Abrir menu gaveta</string>
+    <string name="navigation_drawer_close">Fechar menu gaveta</string>
+
+    <string name="label_services">Serviços</string>
+    <string name="label_bride_day">Dia de noiva</string>
+    <string name="label_packages">Pacotes</string>
+    <string name="label_schedule">Agendamento</string>
+    <string name="label_address">Endereço (rota em mapa)</string>
+
+    <string name="whatsapp_needed_info">
+        Instale o WhatsApp em seu aparelho.
+    </string>
+
+    <string name="label_located_in">Estamos localizados em:</string>
+    <string name="desc_icon_address">Ícone de endereço</string>
+    <string name="address">
+        Av. Américo Buaiz, nº 200, Serra - Espírito Santo. 2º andar,
+        loja 352 - ao lado da Los Neto.
+    </string>
+    <string name="desc_background_address">
+        Imagem de background da área de endereço.
+    </string>
+
+    <string name="label_are_you_in_mall">
+        Chegou no shopping? Pode nos acionar pelo WhatsApp se quiser:
+    </string>
+    <string name="desc_icon_whatsapp">Ícone do WhatsApp</string>
+    <string name="whatsapp_number">
+        +55 (27) 9&#8211;9988&#8211;7766
+    </string>
+
+    <string name="label_difficulty_finding_us">
+        Está tendo dificuldades em nos encontrar? Acione o botão
+        abaixo para que a rota seja apresentada a você.
+    </string>
+    <string name="label_view_route">Visualizar rota</string>
+
+    <string name="apps_needed_info">
+        Instale o Google Maps ou algum navegador para poder visualizar
+        a rota.
+    </string>
+</resources>

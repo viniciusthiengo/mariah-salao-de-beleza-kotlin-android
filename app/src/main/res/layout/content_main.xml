@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_we_are_located_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/label_located_in"
+            android:textColor="@color/colorDarkTextLabel"
+            android:textSize="@dimen/text_size" />
+
+        <ImageView
+            android:id="@+id/iv_ic_address"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_alignLeft="@+id/tv_we_are_located_in"
+            android:layout_alignStart="@+id/tv_we_are_located_in"
+            android:layout_below="@+id/tv_we_are_located_in"
+            android:layout_marginLeft="26dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="@dimen/content_margin_top"
+            android:contentDescription="@string/desc_icon_address"
+            android:src="@drawable/ic_address"
+            android:tint="@color/colorGreyIcon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/iv_ic_address"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@+id/iv_ic_address"
+            android:layout_toRightOf="@+id/iv_ic_address"
+            android:text="@string/address"
+            android:textSize="@dimen/text_size" />
+
+        <!--
+            O ImageView abaixo está sendo utilizado como hackcode
+            para que a imagem de background fique corretamente
+            posicionada na segunda parte de conteúdo da tela de
+            endereço. Este tipo de estratégia foi necessária, pois
+            a imagem quando definida como background no RelativeLayout
+            é na verdade parte do conteúdo dele, fazendo com que este
+            ViewRoot fique com as dimensões erradas em relação ao
+            protótipo estático apresentado para projeto.
+         -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/rv_container"
+            android:layout_alignEnd="@+id/rv_container"
+            android:layout_alignLeft="@+id/rv_container"
+            android:layout_alignRight="@+id/rv_container"
+            android:layout_alignStart="@+id/rv_container"
+            android:layout_alignTop="@+id/rv_container"
+            android:contentDescription="@string/desc_background_address"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background_address" />
+
+        <RelativeLayout
+            android:id="@+id/rv_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/tv_whatsapp_contact_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/label_are_you_in_mall"
+                android:textColor="@color/colorPurpleTextLabel"
+                android:textSize="@dimen/text_size" />
+
+            <ImageView
+                android:id="@+id/iv_ic_whatsapp"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_alignLeft="@+id/tv_whatsapp_contact_label"
+                android:layout_alignStart="@+id/tv_whatsapp_contact_label"
+                android:layout_below="@+id/tv_whatsapp_contact_label"
+                android:layout_marginLeft="26dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="@dimen/content_margin_top"
+                android:contentDescription="@string/desc_icon_whatsapp"
+                android:onClick="whatsAppHelp"
+                android:src="@drawable/ic_whatsapp"
+                android:tint="@color/colorGreyIcon" />
+
+            <TextView
+                android:id="@+id/tv_whatsapp_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/iv_ic_whatsapp"
+                android:layout_marginBottom="50dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_toEndOf="@+id/iv_ic_whatsapp"
+                android:layout_toRightOf="@+id/iv_ic_whatsapp"
+                android:onClick="whatsAppHelp"
+                android:text="@string/whatsapp_number"
+                android:textSize="@dimen/text_size" />
+
+            <TextView
+                android:id="@+id/tv_difficulty_finding_us"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/tv_whatsapp_number"
+                android:text="@string/label_difficulty_finding_us"
+                android:textColor="@color/colorPurpleTextLabel"
+                android:textSize="@dimen/text_size" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/tv_difficulty_finding_us"
+                android:layout_marginTop="@dimen/content_margin_top"
+                android:background="@color/colorAccent"
+                android:onClick="showRoute"
+                android:text="@string/label_view_route"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_service"
+            android:icon="@drawable/ic_services"
+            android:title="@string/label_services" />
+        <item
+            android:id="@+id/nav_bride_day"
+            android:icon="@drawable/ic_bride_day"
+            android:title="@string/label_bride_day" />
+        <item
+            android:id="@+id/nav_packages"
+            android:icon="@drawable/ic_packages"
+            android:title="@string/label_packages" />
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/ic_schedule"
+            android:title="@string/label_schedule" />
+        <item
+            android:id="@+id/nav_address"
+            android:checked="true"
+            android:icon="@drawable/ic_address"
+            android:title="@string/label_address" />
+    </group>
+</menu>

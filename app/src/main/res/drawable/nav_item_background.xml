@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Estado "Selecionado" -->
+    <item
+        android:drawable="@color/colorAccent"
+        android:state_checked="true" />
+
+    <!-- Estado "Normal", não selecionado -->
+    <item android:drawable="@android:color/transparent" />
+</selector>

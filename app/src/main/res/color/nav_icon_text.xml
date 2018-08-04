@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        A ordem dos itens de um arquivo <selector> deve ser
+        seguida de forma estrita, pois caso contrário os efeitos
+        esperados não ocorrerão.
+    -->
+
+    <!-- Estado "Selecionado" -->
+    <item
+        android:color="@android:color/white"
+        android:state_checked="true" />
+
+    <!-- Estado "Normal", não selecionado -->
+    <item android:color="@color/colorItemNormal" />
+</selector>

@@ -97,7 +97,7 @@ class MainActivity :
      * */
     fun showRoute(view: View){
         var beautySalon = "Rebecca Miranda Centro Estético, " +
-            "Morada de Laranjeiras, Serra, Espírito Santo, Brasil"
+                "Morada de Laranjeiras, Serra, Espírito Santo, Brasil"
         beautySalon = Uri.encode( beautySalon )
 
         var navigation = "google.navigation:q=$beautySalon"
@@ -134,12 +134,12 @@ class MainActivity :
              * instalar ao menos um dos dois.
              * */
             Toast
-                .makeText(
-                    this,
-                    getString( R.string.apps_needed_info ),
-                    Toast.LENGTH_LONG
-                )
-                .show()
+                    .makeText(
+                            this,
+                            getString( R.string.apps_needed_info ),
+                            Toast.LENGTH_LONG
+                    )
+                    .show()
         }
     }
 }

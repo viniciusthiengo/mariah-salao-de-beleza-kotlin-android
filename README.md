@@ -4,7 +4,7 @@ Projeto Kotlin Android da segunda parte do artigo [Utilizando Intenções Para M
 
 Artigo que apresenta as intenções (`Intent`s) do Google Maps para a geração de mapas de alta qualidade no ambiente Android.
 
-<img src="https://www.thiengo.com.br/img/post/normal/rifb9jvvr8lodfe5oba26mf6b1bffde681884607929725ad077cdfc997.jpg" width="240" alt="Google Street View acionado via intenções do Google Maps">
+<img src="https://www.thiengo.com.br/img/post/normal/rifb9jvvr8lodfe5oba26mf6b1bffde681884607929725ad077cdfc997.jpg" height="418" alt="Google Street View acionado via intenções do Google Maps">
 
 O conteúdo do artigo também está disponível em [vídeos](https://www.thiengo.com.br/utilizando-intencoes-para-mapas-de-alta-qualidade-no-android#title-32) e em [slides](https://www.thiengo.com.br/utilizando-intencoes-para-mapas-de-alta-qualidade-no-android#title-31).
 

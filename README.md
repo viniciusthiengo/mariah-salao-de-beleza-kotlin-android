@@ -22,7 +22,7 @@ De qualquer forma, mesmo sem a atualização para o AndroidX o projeto deverá r
 
 ## Dúvidas e dicas
 
-Caso você tenha dúvidas ou dicas sobre as intenções do Google Maps ou o projeto apresentado em artigo, então [entre em contato](https://www.thiengo.com.br/contato) ou deixe seu comentário no post que logo eu lhe respondo.
+Caso você tenha dúvidas ou dicas sobre as intenções do Google Maps ou sobre o projeto apresentado em artigo, então [entre em contato](https://www.thiengo.com.br/contato) ou deixe seu comentário no post que logo eu lhe respondo.
 
 ## Meus livros 📚 e curso
 
